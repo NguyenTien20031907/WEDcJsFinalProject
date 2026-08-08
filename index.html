@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>5 Platonic Solids and a Sphere</title>
+    <link rel="stylesheet" href="css/gallery.css">
+    <script src="js/gallery.js" defer></script>
+</head>
+
+<body onload="bodyTagOnLoadListener()">
+
+    <div id="image">
+        Hover over an image below to display here.
+    </div>
+
+    <img class="preview"
+        alt="3D rendering of a regular tetrahedron, a polyhedron with 4 triangular faces, shown in translucent green and brown shading with dark edges, on a transparent background."
+        src="img/Tetrahedron.png" onmouseover="upDate(this)" onmouseout="unDo()" onfocus="upDate(this)" onblur="unDo()">
+
+    <img class="preview"
+        alt="3D rendering of a cube, a polyhedron with 6 square faces, shown in translucent green and olive shading with dark edges, on a transparent background."
+        src="img/Cube.png" onmouseover="upDate(this)" onmouseout="unDo()" onfocus="upDate(this)" onblur="unDo()">
+
+    <img class="preview" src="img/Octahedron.png"
+        alt="3D rendering of a regular octahedron, a polyhedron with 8 triangular faces, shown in translucent green and brown shading with dark edges, on a transparent background."
+        onmouseover="upDate(this)" onmouseout="unDo()" onfocus="upDate(this)" onblur="unDo()">
+
+    <img class="preview"
+        alt="3D rendering of a regular dodecahedron, a polyhedron with 12 pentagonal faces, shown in green, brown, orange, and purple shading with visible edges."
+        src="img/Dodecahedron.svg" onmouseover="upDate(this)" onmouseout="unDo()" onfocus="upDate(this)"
+        onblur="unDo()">
+
+    <img class="preview"
+        alt="3D rendering of a regular icosahedron, a polyhedron with 20 triangular faces, shown in translucent green, brown, and pink shading with visible edges."
+        src="img/Icosahedron.svg" onmouseover="upDate(this)" onmouseout="unDo()" onfocus="upDate(this)" onblur="unDo()">
+
+    <img class="preview" src="img/Sphere.svg"
+        alt="Simple line illustration of a sphere, shown in green with a solid outline for the visible equator and a dashed curve indicating the hidden back edge."
+        onmouseover="upDate(this)" onmouseout="unDo()" onfocus="upDate(this)" onblur="unDo()">
+
+</body>
+
+</html>
