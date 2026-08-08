@@ -26,8 +26,7 @@ function unDo() {
     idImageElement.style.backgroundImage = "";
 }
 
-function bodyTagOnLoadListener(){
-    
+function bodyTagOnLoadListener() {
     addTabOnImages('preview');
     alert('Gallery of 5 Platonic Solids and a Sphere');
 }
